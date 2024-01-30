@@ -1,0 +1,5 @@
+# pythonを使ったtcpのソケット通信のやり方
+- python(client)-unity(server)という感じでやってる
+- mediapipeで見たpythonの手のジョイントの関節の情報を送りたかった
+- pythonでシリアライズ、デシリアライズを簡単にするライブラリにpickleがあるが今回はunityでpickleを使うのが難しい。
+- unityは適当なところにスクリプトをゲームオブジェクトにadd componentしといて

@@ -1,0 +1,10 @@
+train: xxx # trainフォルダの絶対パス（相対パスだとうまくいかなかった）
+val: xxx # valフォルダの絶対パス
+test: xxx # testフォルダの絶対パス
+
+# number of classes
+nc: 2
+
+# class names
+names: ['lable1','label2'] # 順番をアノテーションした順番にそろえる必要がある
+# yoloデータは配列のインデックスのみで管理してるのでここのラベルの入れるの順番は大事
